@@ -1,0 +1,257 @@
+.PageHeader .ProfileMain-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1000px;
+    height: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.ProfileMain-tabs {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1;
+    flex: 1 1;
+}
+
+.ProfileMain-tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-color: transparent transparent;
+}
+
+.Tabs {
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.Tabs-link {
+    position: relative;
+    display: inline-block;
+    padding: 14px 82px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #121212;
+    text-align: center;
+}
+
+.ProfileMain-tabs {
+    font-weight: 400;
+}
+
+.ProfileMain-tabs .Tabs-item {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 0 12px;
+}
+
+.Tabs-item {
+    display: inline-block;
+    width: 300px;
+    padding: 10px 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.Tabs-link.is-active:after {
+    position: absolute;
+    right: 0px;
+    bottom: -1px;
+    left: 0px;
+    height: 3px;
+    width: 200px;
+    background: #b146c2;
+    padding-left: 10px;
+    content: "";
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.List-item {
+    position: relative;
+    padding: 16px 20px;
+}
+
+.ContentItem-title {
+    line-height: 1.6;
+    color: #121212;
+}
+
+.ContentItem-title {
+    font-size: 18px;
+    font-weight: 600;
+    font-synthesis: style;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font: inherit;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.Button--link,
+.Button--plain {
+    height: auto;
+    padding: 0;
+    line-height: inherit;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+
+.Button {
+    display: inline-block;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+body,
+button,
+p,
+pre {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif
+}
+
+button {
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+.RichContent.is-collapsed .RichContent-inner {
+    max-height: 100px;
+}
+
+.RichContent-inner {
+    margin-top: 9px;
+    margin-bottom: -4px;
+    overflow: hidden;
+}
+
+div {
+    display: block;
+}
+
+.Button--withIcon.Button--link,
+.Button--withIcon.Button--plain {
+    padding: 0;
+}
+
+.RichContent {
+    line-height: 1.67;
+}
+
+.ContentItem-more {
+    padding: 0;
+    margin-left: 560px;
+    color: #b146c2;
+}
+
+.Button--link,
+.Button--plain {
+    height: auto;
+    padding: 0;
+    line-height: inherit;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+div {
+    display: block;
+}
+
+.md a:link,
+.md a:visited {
+    font-family: 'Open Sans', sans-serif;
+    color: #b146c2
+}
+
+.md a {
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,129 @@
+.UserCover {
+    position: relative;
+    height: 360px;
+    width: 697px;
+    overflow: hidden;
+    background: #f6f6f6
+}
+
+.UserCover {
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+    -webkit-transition: height .3s;
+    transition: height .3s
+}
+
+.UserCover-image,
+.UserCover-image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.Banner {
+    width: 680px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    scale: 70%;
+}
+
+.ProfileHeader {
+    position: relative;
+    width: 697px;
+    padding: 0 16px;
+    margin: 10px auto
+}
+
+.PageHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s
+}
+
+.PageHeader:not(.is-shown) {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%)
+}
+
+.ProfileMain {
+    overflow: visible;
+    overflow: initial
+}
+
+.ProfileMain-avatar .Avatar {
+    display: block;
+    cursor: pointer
+}
+
+.ProfileMain-tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-color: transparent transparent
+}
+
+.ProfileMain-tabs::-webkit-scrollbar {
+    display: none
+}
+
+.ProfileMain-tabs .Tabs-item {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 0 12px
+}
+
+.PageHeader .ProfileMain-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1000px;
+    height: 100%;
+    padding: 0 16px;
+    margin: 0 auto
+}
+
+.PageHeader .ProfileMain-tabs {
+    border-bottom: none
+}
+
+.ProfileMain-tabs {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1;
+    flex: 1 1
+}
+
+
+body:not(.Body--isAppleDevice) .ProfileMain-tabs .is-active {
+    font-weight: 600;
+    font-synthesis: style
+}
+
+.Profile-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 697px;
+    min-height: 100vh;
+    padding: 0 16px;
+    margin: 10px auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
